@@ -1,5 +1,7 @@
 scoreboard players enable @a difficulty
 
+execute as @a at @s if score @s difficulty matches 0 run scoreboard players set @s difficulty -1
+
 #peaceful
 execute as @a at @s if score @s difficulty matches 0 run difficulty peaceful
 execute as @a at @s if score @s difficulty matches 0 run tellraw @a ["",{"selector":"@s","underlined":true,"color":"dark_purple"},{"text":" change the difficulty to peaceful","color":"light_purple"}]
