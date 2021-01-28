@@ -1,5 +1,5 @@
 {
     "values" : [
-        "difficulty:tick"
+        "difficulty:trigger/tick"
     ]
 }
