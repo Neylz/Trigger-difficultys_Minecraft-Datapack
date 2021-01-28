@@ -3,4 +3,4 @@ Minecraft Datapack who proposes to change the difficulty of a Minecraft world wi
 This datapack can be installed on a server but it is not recommanded to use it on a not litle friends server to avoid abuse.
 
 # Usage & Installation
-Please go in "realease" section to view this informations
+Please go in "release" section to view this informations
