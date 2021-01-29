@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tipped_arrow"
+        },
+        "title": "TiggerDifficulties",
+        "description": [{"text":"Change the world difficulty with /trigger\n","color": "blue"},{"text":"Type","color": "aqua"},{"text":" /trigger difficulty set <level>\n", "color":"green"},{"text":"Replace <level> with the level of dificulty you want","color": "blue"}],
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "easier_now:root",
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+        }
+    }
+}

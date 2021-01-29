@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:totem_of_undying",
+			"nbt": "{Enchantments:[{\"id\":\"vanishing_curse\",lvl:1}]}"
+		},
+		"title": "EasierNow",
+		"frame": "goal",
+		"description": [{"text":"All datapacks from EasierNow","color":"blue"}],
+		"background": "minecraft:textures/block/blackstone.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

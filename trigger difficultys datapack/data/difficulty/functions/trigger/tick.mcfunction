@@ -1,7 +1,5 @@
 scoreboard players enable @a difficulty
 
-
-
 execute as @a at @s if score @s difficulty matches 0 unless score @s alreadyConnected matches -1 run scoreboard players set @s alreadyConnected -2
 execute as @a at @s if score @s difficulty matches 0 if score @s alreadyConnected matches -2 run scoreboard players set @s difficulty -1
 execute as @a at @s if score @s alreadyConnected matches -2 run scoreboard players set @s alreadyConnected -1

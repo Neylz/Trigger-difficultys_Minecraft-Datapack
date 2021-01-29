@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:Neylz}"
+        },
+        "title": "Datapacks made by Neylz",
+        "description": "",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "challenge"
+    },
+    "parent": "easier_now:root",
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+        }
+    }
+}
