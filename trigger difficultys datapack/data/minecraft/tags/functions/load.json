@@ -1,5 +1,6 @@
 {
     "values" : [
-        "difficulty:load"
+        "difficulty:load",
+        "difficulty:settings"
     ]
 }
